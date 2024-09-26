@@ -20,7 +20,7 @@ const Navigate = useNavigate();
          email: '', 
          phone: '', 
           flightno: selectedFlight.itineraries[0].segments,
-          scheduleddate: new Date(selectedFlight.itineraries[0].segments[0].departure.at).toLocaleString(),
+          scheduleddate: new Date(selectedFlight.itineraries[0].segments[0].departure.at),
           stops: selectedFlight.itineraries[0].segments.length - 1,
           price:selectedFlight.price.total,
           totalprice: selectedFlight.price.total*searchformik.passengers,
@@ -62,7 +62,7 @@ Navigate("/payment")
     setNumPassengers(numPassengers + 1);
     formik.setFieldValue('passengers', [...formik.values.passengers, { name: '', email: '', phone: '',
       flightno: selectedFlight.itineraries[0].segments.number,
-      scheduleddate: new Date(selectedFlight.itineraries[0].segments[0].departure.at).toLocaleString(),
+      scheduleddate: new Date(selectedFlight.itineraries[0].segments[0].departure.at),
       stops: selectedFlight.itineraries[0].segments.length - 1,
       price:selectedFlight.price.total,
       totalprice: selectedFlight.price.total*searchformik.passengers,

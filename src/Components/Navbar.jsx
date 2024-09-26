@@ -76,9 +76,14 @@ function handlelogo(){
           {logorevel?(<div className="profile-logo-box">
             {loginacc?(<div>
               <img src='https://img.icons8.com/fluency/48/gender-neutral-user.png' />
-          <Link to={"/user"} className='a'>My Profile</Link></div>):(<div>
-              <img src='https://img.icons8.com/fluency/48/login-rounded-right.png' />
-          <Link to={"/login"} className='a'>Login / Sign-up</Link>
+          <Link to={"/user"} className='a'>My Profile</Link>
+          
+          </div>):(<div>
+             <div> <img src='https://img.icons8.com/fluency/48/login-rounded-right.png' />
+             <Link to={"/login"} className='a'>Login / Sign-up</Link></div>
+          <div> 
+          <img src='https://img.icons8.com/3d-fluency/94/administrator-male--v3.png' />
+            <Link to={"/admin"} className='a'>Admin</Link></div>
             </div>)}
           </div>):("")}
         </div>
@@ -123,8 +128,11 @@ function handlelogo(){
             {loginacc?(<div>
               <img src='https://img.icons8.com/fluency/48/gender-neutral-user.png' />
           <Link to={"/user"} className='a'>My Profile</Link></div>):(<div>
-              <img src='https://img.icons8.com/fluency/48/login-rounded-right.png' />
-          <Link to={"/login"} className='a'>Login / Sign-up</Link>
+             <div> <img src='https://img.icons8.com/fluency/48/login-rounded-right.png' />
+             <Link to={"/login"} className='a'>Login / Sign-up</Link></div>
+          <div> 
+          <img src='https://img.icons8.com/3d-fluency/94/administrator-male--v3.png' />
+            <Link to={"/admin"} className='a'>Admin</Link></div>
             </div>)}
           </div>):("")}
         </div>

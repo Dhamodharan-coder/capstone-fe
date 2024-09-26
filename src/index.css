@@ -36,12 +36,13 @@ color: #0275d8 !important;
     box-shadow: 0px 0px 10px 2px rgb(231, 229, 229);
     position: absolute;
     padding: 0px 20px;
+    margin: 14px 0;
     right: 0;
-    bottom: -40px;
+    bottom: -80px;
 }
 .profile-logo-box img{
 height: 30px;
-margin: 15px 0;
+margin: 10px 0;
 }
 .profile-logo-box .a{
     text-decoration: none;
