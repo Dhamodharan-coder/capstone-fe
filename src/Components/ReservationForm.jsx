@@ -7,7 +7,7 @@ import Footer from './Footer';
 import { toast } from 'react-toastify';
 
 const ReservationForm = () => {
-  const BASEURL = "http://localhost:3000";
+  const BASEURL = "https://dhru-airways.onrender.com";
   const [formData, setFormData] = useState({
     departure: '',
     arrival: '',

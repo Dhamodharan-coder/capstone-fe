@@ -12,7 +12,7 @@ import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons'; // Eye ic
 
 
 function Signup() {
-  const BASEURL = "http://localhost:3000";
+  const BASEURL = "https://dhru-airways.onrender.com";
   const [showPassword, setShowPassword] = useState(false); 
   const navigate = useNavigate();
   const formik = useFormik({

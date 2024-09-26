@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 const ForgotPassword = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const BASEURL = "http://localhost:3000";
+  const BASEURL = "https://dhru-airways.onrender.com";
   const handleForgotPassword = async (e) => {
     e.preventDefault();
     try {

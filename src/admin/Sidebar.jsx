@@ -11,7 +11,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const Sidebar = () => {
-  const BASEURL = "http://localhost:3000";
+  const BASEURL = "https://dhru-airways.onrender.com";
     const [adminnav,setadminnav] = useState("dashboard");
     const [adminuserdetails,setadminuserdetails] = useState([]);
     const [getbookings,setgetbookings]=useState([]);

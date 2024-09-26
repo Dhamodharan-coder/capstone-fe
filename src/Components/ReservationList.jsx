@@ -7,7 +7,7 @@ import { FlightContext } from "./FlightContext";
 import { toast } from 'react-toastify';
 
 const ReservationList = () => {
-  const BASEURL = "http://localhost:3000";
+  const BASEURL = "https://dhru-airways.onrender.com";
   const [reservations, setReservations] = useState([]);
   const [editingReservation, setEditingReservation] = useState(null); 
  const { userdetails } = useContext(FlightContext);// Track the reservation being edited

@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Payment_failure() {
-  const BASEURL = "http://localhost:3000";
+  const BASEURL = "https://dhru-airways.onrender.com";
   const handleSendEmails = async () => {
     const token = localStorage.getItem("token"); // Adjust this if you store the token differently
   try {

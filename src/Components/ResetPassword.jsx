@@ -6,7 +6,7 @@ import Navbar from './Navbar';
 import { toast } from 'react-toastify';
 
 const ResetPassword = () => {
-  const BASEURL = "http://localhost:3000";
+  const BASEURL = "https://dhru-airways.onrender.com";
   const { token } = useParams(); // Extract token from the URL
   const navigate = useNavigate();
   const [newPassword, setNewPassword] = useState('');

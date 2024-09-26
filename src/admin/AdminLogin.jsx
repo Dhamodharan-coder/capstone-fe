@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Navbar from '../Components/Navbar'
 
 function AdminLogin() {
- const BASEURL = "http://localhost:3000";
+ const BASEURL = "https://dhru-airways.onrender.com";
   const navigate = useNavigate();
   const formik = useFormik({
     initialValues:{

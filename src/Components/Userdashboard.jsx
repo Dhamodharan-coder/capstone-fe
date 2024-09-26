@@ -15,7 +15,7 @@ function Userdashboard() {
   const { setprofileimg, profileimg , userdetails, finalBookings, setFinalBookings } = useContext(FlightContext);
   const navigate = useNavigate();
   const inputref = useRef(null);
-  const BASEURL = "http://localhost:3000";
+  const BASEURL = "https://dhru-airways.onrender.com";
   
 
   // Handle delete

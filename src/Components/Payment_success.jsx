@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 function Payment_success() {
 
 
-  const BASEURL = "http://localhost:3000";
+  const BASEURL = "https://dhru-airways.onrender.com";
 const handleSendEmail = async () => {
   const token = localStorage.getItem("token"); // Adjust this if you store the token differently
   try {

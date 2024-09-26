@@ -5,7 +5,7 @@ import axios from 'axios';
 import Navbar from './Navbar';
 
 function FlightStatus() {
-  const BASEURL = "http://localhost:3000";
+  const BASEURL = "https://dhru-airways.onrender.com";
     const [flightData, setFlightData] = useState([]);
     const [spinner,setspinner]=useState(false);
     const formik = useFormik({

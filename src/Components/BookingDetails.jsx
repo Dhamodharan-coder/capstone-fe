@@ -9,7 +9,7 @@ import { toast } from 'react-toastify';
 import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
 function BookingDetails() {
-  const BASEURL = "http://localhost:3000";
+  const BASEURL = "https://dhru-airways.onrender.com";
     const [numPassengers, setNumPassengers] = useState(1); // State to control the number of passengers
     const {selectedFlight,selectedFlightt,searchformik} = useContext(FlightContext);
 const Navigate = useNavigate();

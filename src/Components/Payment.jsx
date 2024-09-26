@@ -13,7 +13,7 @@ function Payment() {
 
   // Frontend: payment.js
   const { ticket,setticket,selectedFlightt,selectedFlight,searchformik,userinfo,setuserinfo,setSelectedSeats,selectedSeats,userdetails } = useContext(FlightContext); // Access selected flight from con
-  const BASEURL = "http://localhost:3000";
+  const BASEURL = "https://dhru-airways.onrender.com";
 
 const [userinfotwo,setuserinfotwo]=useState([]);
 const [name,setname]= useState([])

@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 
 function Searchbar() {
-  const BASEURL = "http://localhost:3000";
+  const BASEURL = "https://dhru-airways.onrender.com";
 const [passvisible,setpassvisible]=useState("none");
 const [searchtab,setsearchtab]=useState("flights");
 const [tripoption,settripoption]=useState("round-trip");
